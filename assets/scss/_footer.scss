@@ -1,0 +1,23 @@
+.footer {
+  padding-top: $gap * 3.6;
+  color: $color-gray;
+  background-color: $color-dark;
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: darken($color-gray, 50%);
+  &:hover {
+    color:lighten($color-gray, 10%);
+  }
+ }
+}
+.footer-author {
+  margin: 20px 0;
+  text-align: center;
+  a{
+    color: lighten($color-gray, 50%);
+  }
+}
